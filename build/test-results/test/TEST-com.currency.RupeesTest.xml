@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.currency.RupeesTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-11-15T06:36:16" hostname="Dipikas-MacBook-Pro.local" time="0.026">
+<testsuite name="com.currency.RupeesTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-11-15T11:25:33" hostname="Dipikas-MacBook-Pro.local" time="0.023">
   <properties/>
-  <testcase name="shouldAddTwoDenominations()" classname="com.currency.RupeesTest" time="0.023"/>
-  <testcase name="shouldReturnTrueIfBothDenominationsAreEqual()" classname="com.currency.RupeesTest" time="0.002"/>
+  <testcase name="shouldAddTwoDenominations()" classname="com.currency.RupeesTest" time="0.02"/>
+  <testcase name="shouldReturnTrueIfBothDenominationsAreEqual()" classname="com.currency.RupeesTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

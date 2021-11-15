@@ -9,14 +9,17 @@ public class RupeesTest {
 
     @Test
     void shouldReturnTrueIfBothDenominationsAreEqual(){
-        Rupees rupees = new Rupees(10,10);
-        assertTrue(rupees.compareRupees());
+        Rupees rupeesObject1 = new Rupees(10);
+        Rupees rupeesObject2 = new Rupees(10);
+        assertEquals(rupeesObject1, rupeesObject2);
     }
 
     @Test
     void shouldAddTwoDenominations(){
-        Rupees rupees = new Rupees(2,5);
-        assertEquals(7,rupees.getTotalRupees());
+        Rupees rupee = new Rupees();
+        Rupees rupeesObj1 = new Rupees(2);
+        Rupees rupeesObj2 = new Rupees(5);
+        assertEquals(new Rupees(7),rupee.getTotalRupees(rupeesObj1,rupeesObj2));
     }
 
 }
